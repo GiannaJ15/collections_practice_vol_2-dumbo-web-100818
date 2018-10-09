@@ -45,6 +45,5 @@ array.each do |hash|
      hasharray << hash
     end
   end 
-  hasharray
 end
 end
