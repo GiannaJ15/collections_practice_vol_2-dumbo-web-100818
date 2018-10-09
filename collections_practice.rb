@@ -40,7 +40,7 @@ def merge_data(keys, values)
  
   end 
   
-def find_cool(keys, values)
-  values.include?("cool")
+def find_cool(hash)
+  hash.values.include?("cool")
 end 
   
