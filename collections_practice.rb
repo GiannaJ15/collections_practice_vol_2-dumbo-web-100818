@@ -43,7 +43,7 @@ hash.each do |key, value|
 if value == "cool"
 array << key
 end
+ array
 end 
-return array
 end 
   
