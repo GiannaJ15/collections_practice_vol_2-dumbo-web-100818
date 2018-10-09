@@ -41,6 +41,11 @@ def merge_data(keys, values)
   end 
   
 def find_cool(hash)
-  hash.values.include?("cool")
+  hash.each do |key, value|
+if value == "cool"
+return key
+end
+end 
+end
 end 
   
