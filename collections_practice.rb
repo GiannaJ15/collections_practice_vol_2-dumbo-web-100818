@@ -39,9 +39,10 @@ end
   
 def find_cool(array)
 array.each do |hash|
+  hasharray =[]
   hash.collect do |key, value|
     if value == "cool"
-    return hash
+     hasharray << hash
 end
 end 
 end
