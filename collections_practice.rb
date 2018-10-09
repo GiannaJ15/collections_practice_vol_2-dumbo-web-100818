@@ -39,7 +39,7 @@ end
   
 def find_cool(hash)
   hash.each do |key, value|
-if value == "cool"
+if value.include? cool"
 return key
 end
 end 
