@@ -38,11 +38,12 @@ def merge_data(keys, values)
 end
   
 def find_cool(hash)
-  hash.each do |key, value|
+  array = []
+hash.each do |key, value|
 if value == "cool"
-return key
+array << key
 end
 end 
-
+return array
 end 
   
