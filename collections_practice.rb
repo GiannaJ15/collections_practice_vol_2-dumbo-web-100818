@@ -37,4 +37,12 @@ def count_elements(array)
 def merge_data(keys, values)
 end
   
-def find_cool(hash)
+def find_cool(array)
+array.each do |hash|
+  hash.collect do |key, value|
+    if value == "cool"
+    return hash
+end
+end 
+end
+end
