@@ -35,10 +35,7 @@ def count_elements(array)
  end
   
 def merge_data(keys, values)
- keys.each 
-
- 
-  end 
+end
   
 def find_cool(hash)
   hash.each do |key, value|
